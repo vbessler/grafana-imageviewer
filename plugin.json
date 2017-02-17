@@ -1,0 +1,31 @@
+{
+  "type": "panel",
+  "name": "ImageViewer",
+  "id": "grafana-imageviewer",
+
+  "info": {
+    "description": "Rertrieve Image URL from the data source and show the images in a panel.",
+    "author": {
+      "name": "Vivian Bessler"
+    },
+    "keywords": ["imageviewer","picture", "panel"],
+    "logos": {
+      "small": "src/img/imageviewer_logo.png",
+      "large": "src/img/imageviewer_logo.png"
+    },
+    "links": [
+      {"name": "Project site", "url": "https://github.com/vbessler/grafana-imageviewer"},
+      {"name": "MIT License", "url": "https://github.com/vbessler/grafana-imageviewer/blob/master/LICENSE"}
+    ],
+    "screenshots": [
+      {"name": "Showcase", "path": "src/img/screenshot-imageviewer.png"}
+    ],
+    "version": "1.0.0",
+    "updated": "2017-01-30"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "3.x.x",
+    "plugins": [ ]
+  }
+}
